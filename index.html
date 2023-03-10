@@ -493,13 +493,26 @@
             </li>
           </ul>
         </div>
-        <form class="subscribe-forme">
+        <form class="subscribe-form">
           <p class="text-item-foter">Subscribe</p>
-          <label class="subscribe-forme-field">
-            <span class="form-label">E-mail</span>
-            <input type="email" name="E-mail" class="subscribe-forme-input"
-          /></label>
-          <button type="submit" class="subscribe-btn">Subscribe</button>
+          <div class="subscribe-form-row">
+            <label for="E-mail" class="subscribe-form-field"
+              ><span class="subscribe-form-label">E-mail</span>
+              <input
+                type="email"
+                name="E-mail"
+                class="subscribe-form-input"
+                placeholder="E-mail"
+              />
+            </label>
+
+            <button type="submit" class="subscribe-btn">
+              Subscribe
+              <svg class="subscribe-btn-icon" width="24" height="24">
+                <use href="./images/sprite/icons.svg#icon-Frame"></use>
+              </svg>
+            </button>
+          </div>
         </form>
       </div>
     </footer>
