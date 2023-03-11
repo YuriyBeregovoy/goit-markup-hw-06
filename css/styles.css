@@ -524,6 +524,8 @@ button {
 .footer-description {
   margin-right: 120px;
 }
+/* -----------Footer Subscribe Form ------------ */
+
 .subscribe-form-row {
   display: flex;
   justify-content: center;
@@ -641,3 +643,4 @@ input::placeholder {
 .modal-close-btn:focus .modal-close-btn-icon {
   fill: var(--page-background-color);
 }
+/* ---------Modal window input form-----------  */
