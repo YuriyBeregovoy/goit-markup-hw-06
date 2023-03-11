@@ -651,7 +651,11 @@ input::placeholder {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--title-section-color);
-  outline: 2px solid #31d0aa;
   margin-bottom: 16px;
+
+  outline: 2px solid #31d0aa;
 }
 /* ---------Modal window input form-----------  */
+.modal-form {
+  outline: 2px solid #31d0aa;
+}
