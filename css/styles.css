@@ -556,7 +556,7 @@ button {
   line-height: 2;
   letter-spacing: 0.04em;
 }
-input::placeholder {
+.subscribe-form-input::placeholder {
   color: var(--page-background-color);
 }
 .subscribe-btn {
@@ -680,6 +680,12 @@ input::placeholder {
   width: 100%;
   border: 1px solid rgba(46, 47, 66, 0.2);
   border-radius: 4px;
-  padding-left: 16px;
+  padding: 8px 16px;
   color: var(--title-section-color);
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+}
+.modal-form-message::placeholder {
+  color: rgba(46, 47, 66, 0.4);
 }
