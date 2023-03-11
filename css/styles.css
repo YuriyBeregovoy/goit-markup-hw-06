@@ -652,10 +652,34 @@ input::placeholder {
   letter-spacing: 0.02em;
   color: var(--title-section-color);
   margin-bottom: 16px;
-
-  outline: 2px solid #31d0aa;
 }
 /* ---------Modal window input form-----------  */
 .modal-form {
-  outline: 2px solid #31d0aa;
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-form-label {
+  display: block;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.01em;
+  color: var(--light-slate-color);
+  margin-bottom: 4px;
+}
+.modal-form-input {
+  width: 100%;
+  margin-bottom: 8px;
+  height: 40px;
+  border: 1px solid rgba(46, 47, 66, 0.2);
+  border-radius: 4px;
+  padding-left: 38px;
+  color: var(--title-section-color);
+}
+.modal-form-message {
+  width: 100%;
+  border: 1px solid rgba(46, 47, 66, 0.2);
+  border-radius: 4px;
+  padding-left: 16px;
+  color: var(--title-section-color);
 }
