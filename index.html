@@ -582,10 +582,15 @@
             id="user-policy"
             type="checkbox"
             name="user-policy"
-            class="modal-form-check"
+            class="modal-form-check visually-hidden"
           />
-          <label for="" class="modal-form-check-desc"
-            >I accept the terms and conditions of the
+          <label for="user-policy" class="modal-form-check-desc">
+            <span class="modal-form-fake-checkbox">
+              <svg class="modal-form-fake-checkbox-icon" width="10" height="8">
+                <use href="./images/sprite/icons.svg#icon-check"></use>
+              </svg>
+            </span>
+            I accept the terms and conditions of the
             <a href="">Privacy Policy</a></label
           >
           <button type="submit" class="modal-form-btn">Send</button>
