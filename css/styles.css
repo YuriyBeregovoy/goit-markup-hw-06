@@ -675,7 +675,20 @@ button {
   border-radius: 4px;
   padding-left: 38px;
   color: var(--title-section-color);
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
 }
+.modal-form-input:hover, .modal-form-input:focus {
+  border-color: var(--primary-brand-color);
+  outline: none; 
+}
+
+.modal-form-input:hover+.modal-form-input-icon, 
+.modal-form-input:focus+.modal-form-input-icon {
+  fill: var(--primary-brand-color);
+}
+
 .modal-form-message {
   width: 100%;
   border: 1px solid rgba(46, 47, 66, 0.2);
@@ -698,3 +711,14 @@ button {
   line-height: 1.17;
   letter-spacing: 0.04em;
 }
+.modal-form-input-wrapper {
+  position: relative;
+}
+.modal-form-input-icon {
+position: absolute;
+top: 0;
+left: 16px;
+transform: translateY(50%);
+}
+
+

@@ -528,8 +528,13 @@
         <form class="modal-form">
           <label class="modal-form-field">
             <span class="modal-form-label">Name</span>
-            <input 
-            type="text" name="name" class="modal-form-input" required pattern="^[a-zA-Za]+" minlength="2"></input>
+            <div class="modal-form-input-wrapper">
+              <input 
+              type="text" name="name" class="modal-form-input" required pattern="^[a-zA-Za]+" minlength="2"></input>
+              <svg class="modal-form-input-icon" width="18" height="18">
+                  <use href="./images/sprite/icons.svg#icon-person"></use>
+              </svg>
+            </div>
           </label>
           <label class="modal-form-field">
             <span class="modal-form-label">Phone</span>
