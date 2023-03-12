@@ -669,7 +669,6 @@ button {
 }
 .modal-form-input {
   width: 100%;
-  margin-bottom: 8px;
   height: 40px;
   border: 1px solid rgba(46, 47, 66, 0.2);
   border-radius: 4px;
@@ -679,13 +678,14 @@ button {
   line-height: 1.17;
   letter-spacing: 0.04em;
 }
-.modal-form-input:hover, .modal-form-input:focus {
+.modal-form-input:hover,
+.modal-form-input:focus {
   border-color: var(--primary-brand-color);
-  outline: none; 
+  outline: none;
 }
 
-.modal-form-input:hover+.modal-form-input-icon, 
-.modal-form-input:focus+.modal-form-input-icon {
+.modal-form-input:hover + .modal-form-input-icon,
+.modal-form-input:focus + .modal-form-input-icon {
   fill: var(--primary-brand-color);
 }
 
@@ -713,12 +713,11 @@ button {
 }
 .modal-form-input-wrapper {
   position: relative;
+  margin-bottom: 8px;
 }
 .modal-form-input-icon {
-position: absolute;
-top: 0;
-left: 16px;
-transform: translateY(50%);
+  position: absolute;
+  top: 50%;
+  left: 16px;
+  transform: translateY(-50%);
 }
-
-
