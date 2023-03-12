@@ -743,7 +743,6 @@ button {
   border: transparent;
   transition: background-color var(--timing-function);
 }
-
 .modal-form-btn:hover,
 .modal-form-btn:focus {
   background-color: var(--pressed-state-color);
