@@ -712,6 +712,7 @@ button {
   letter-spacing: 0.04em;
 }
 .modal-form-input-wrapper {
+  display: block;
   position: relative;
   margin-bottom: 8px;
 }
