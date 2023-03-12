@@ -728,16 +728,23 @@ button {
   letter-spacing: 0.04em;
 }
 .modal-form-btn {
-  text-align: center;
-  align-items: center;
+  align-self: center;
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--page-background-color);
   padding: 16px 32px;
+  min-width: 169px;
   background: var(--primary-brand-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  border-color: transparent;
+  border: transparent;
+  transition: background-color var(--timing-function);
+}
+
+.modal-form-btn:hover,
+.modal-form-btn:focus {
+  background-color: var(--pressed-state-color);
 }
