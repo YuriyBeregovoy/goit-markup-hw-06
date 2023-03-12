@@ -526,7 +526,7 @@ button {
 }
 /* -----------Footer Subscribe Form ------------ */
 
-.subscribe-form-row {
+.subscribe-form {
   display: flex;
   justify-content: center;
   align-items: center;
