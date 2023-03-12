@@ -685,7 +685,16 @@ button {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
+  margin-bottom: 16px;
 }
 .modal-form-message::placeholder {
   color: rgba(46, 47, 66, 0.4);
+}
+.modal-form-check {
+}
+.modal-form-check-desc {
+  color: var(--light-slate-color);
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
 }
