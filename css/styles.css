@@ -658,6 +658,9 @@ button {
   display: flex;
   flex-direction: column;
 }
+.modal-form-field {
+  margin-bottom: 8px;
+}
 
 .modal-form-label {
   display: block;
@@ -686,7 +689,6 @@ button {
 .modal-form-input-wrapper {
   display: block;
   position: relative;
-  margin-bottom: 8px;
 }
 .modal-form-input-icon {
   position: absolute;
@@ -699,6 +701,9 @@ button {
   fill: var(--primary-brand-color);
 }
 .modal-form-message {
+  margin-bottom: 16px;
+}
+.modal-form-textarea {
   display: block;
   resize: none;
   width: 100%;
@@ -710,15 +715,14 @@ button {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  margin-bottom: 16px;
   transition: border-color var(--timing-function);
 }
-.modal-form-message:focus {
+.modal-form-textarea:focus {
   border-color: var(--primary-brand-color);
   outline: none;
 }
 
-.modal-form-message::placeholder {
+.modal-form-textarea::placeholder {
   color: rgba(46, 47, 66, 0.4);
 }
 .modal-form-fake-checkbox {
